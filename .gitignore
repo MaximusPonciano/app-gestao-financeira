@@ -1,0 +1,11 @@
+# Ignorar o ambiente virtual (pesado e específico do seu PC)
+venv/
+.env
+
+# Ignorar arquivos compilados do Python (lixo)
+__pycache__/
+*.pyc
+
+# Ignorar o banco de dados local (segurança e conflito)
+*.db
+financeiro.db
